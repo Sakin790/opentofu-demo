@@ -1,8 +1,9 @@
 # প্রি-রিকুয়েজিট চেক (Pre-requisites)
-1 .VM-এ Docker সার্ভিস চালু থাকতে হবে: আপনার রিমোট VM-এ Docker Daemon রানিং থাকতে হবে (sudo systemctl status docker) এবং যেই SSH User দিচ্ছেন (ubuntu বা root), তার Docker রান করার পারমিশন (যেমন: docker গ্রুপে থাকা) থাকতে হবে।
+1. VM-এ Docker সার্ভিস চালু থাকতে হবে: আপনার রিমোট VM-এ Docker Daemon রানিং থাকতে হবে
 
 
-2.Deployment
+2. Deployment
+
 ```
 cd environments/production
 tofu init
